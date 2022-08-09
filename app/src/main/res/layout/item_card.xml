@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="?attr/cardbackground">
+        <TextView
+            android:id="@+id/tv_namakampus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MDP"
+            android:textAlignment="center"
+            android:textSize="32sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_alamatkampus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_namakampus"
+            android:textSize="14sp"
+            android:textStyle="italic"/>
+
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
